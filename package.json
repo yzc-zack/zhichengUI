@@ -1,15 +1,21 @@
 {
   "name": "zhicheng-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
-  "main": "lib/zhichengui.und.min.js",
+  "main": "lib/zhichengui.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yzc-zack/zhichengUI.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name zhichengui --dest lib examples/index.js"
   },
-  "files":["lib"],
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
